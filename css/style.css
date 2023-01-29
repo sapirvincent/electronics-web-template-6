@@ -1,0 +1,278 @@
+/* CSS Document */
+body
+{
+	background-color:#C45221;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	color:#000000;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+#wrapper
+{width:700px;
+margin:0 auto;
+padding:62px 0px 62px 0px;
+}
+
+.menuZone
+{
+float:left;
+height:62px;
+width:674px;
+text-align:center;
+background:url(../images/menumid.jpg) repeat-x;
+}
+
+.menuZone ul
+{margin:0px 0px 0px 0px;
+padding:25px 0px 0px 0px;
+}
+
+.menuZone li
+{display:inline;
+padding:0px 20px 0px 20px;
+margin:0px 0px 0px 0px;
+border-left:1px dashed #999999;
+text-transform:uppercase;
+}
+
+.menuZone li.first{border:none}
+
+
+.menuZone li a
+{
+text-decoration:none;
+font-size:9px;
+color:#333333;
+padding:0px 0px 0px 3px;
+}
+.menuZone li a:hover{text-decoration:underline}
+.menuZone li a.current{text-decoration:underline}
+
+.topLeftmenu
+{width:13px;
+height:62px;
+background:url(../images/leftmenu.jpg) no-repeat;
+float:left;
+}
+.topRightmenu
+{width:13px;
+background:url(../images/rightmenu.jpg) no-repeat;
+height:62px;
+float:right;
+}
+.clear
+{clear:both;
+margin:0px;
+padding:0px;
+}
+#banner
+{width:700px;
+height:371px;
+float:left;
+background:url(../images/banner.jpg);
+}
+.home
+{
+margin:325px 0px 0px 40px;
+float:left;
+}
+.contact
+{
+margin:325px 0px 0px 0px;
+float:left;
+}
+.greyBar
+{width:700px;
+background: url(../images/greybar.jpg) repeat-x;
+height:37px;
+}
+h1
+{font-size:12px;
+color:#FFFFFF;
+text-transform:uppercase;
+font-family:Gill Sans MT Conden;
+margin:0px;
+padding:10px 30px 0px 0px;
+
+text-align:right;
+}
+.h1Sstyle
+{color:#DDA304;
+font-weight:bold;
+}
+.columZone
+{
+	background:#ffffff url(../images/roundbg.jpg) left top repeat-y;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+.columnzonetop {
+	background:url(../images/roundtop.jpg) left top no-repeat;
+	padding:5px 0px 0px 0px;
+}
+
+.columnzonebottom {
+	background:url(../images/roundbottom.jpg) left bottom no-repeat;
+	padding:0px 0px 30px 0px;
+}
+
+.grayzone {
+	background:#E6E6E6;
+	margin:0px 5px 0px 5px;
+	padding:0px 0px 10px 0px;
+}
+.columMid
+{width:674px;
+float:left;
+background:url(../images/containermid.jpg) repeat-x;
+}
+.coulam1
+{width:190px;
+float:left;
+margin:0px 0px 0px 0px;
+padding:0px 0px 0px 20px;
+}
+.coulam2
+{width:200px;
+height:242px;
+float:left;
+margin:0px 0px 0px 10px;
+padding:40px 0px 0px 0px;
+background:url(../images/pic2.jpg) right top no-repeat;
+}
+.coulam3
+{width:240px;
+float:left;
+margin:0px 0px 0px 10px;
+padding:40px 0px 0px 0px;
+}
+.coulamTop1
+{width:190px;
+height:93px;
+background:url(../images/pic1top.jpg) left top no-repeat;
+}
+h3
+{color:#FFFFFF;
+margin:0px 0px 0px 0px;
+padding:67px 0px 0px 25px;
+text-transform:uppercase;
+font-weight:100;
+font-size:14px;
+}
+h2
+{color:#D14711;
+margin:0px 0px 0px 0px;
+padding:0px 0px 3px 0px;
+text-transform:uppercase;
+border-bottom: dashed 1px;
+border-bottom-color:#666666; 
+font-weight:100;
+font-size:18px;
+}
+h4
+{color:#C45221;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+margin:0px 0px 0px 0px;
+padding:12px 0px 0px 23px;
+font-weight:bold;
+}
+.coulamMid1
+{width:190px;
+background:url(../images/coulammid1.jpg) repeat-y;
+}
+.coulam1Text
+{padding:0px 22px 0px 23px;
+font-size:10px;
+}
+.coulamBottom1
+{width:190px;
+height:55px;
+background:url(../images/pic1bottom.jpg) left bottom no-repeat;
+}
+.features
+{ margin:10px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}
+.features ul
+{margin:0px;
+padding:0px;
+}
+.features li
+{font-size:11px;
+	list-style:none;
+	background:url(../images/bullet.png) 0px 1px no-repeat;
+	padding:0px 0px 5px 20px;
+	font-weight:bold;
+	}
+
+.bottommenuzone {
+	padding:20px 0px 0px 0px;
+}
+
+.bottomLinks
+{margin:0px;
+padding:0px 0px 0px 0px;
+text-align:center;
+}
+.bottomLinks ul
+{margin:0px;
+padding:0px 0px 0px 0px;
+}
+.bottomLinks li
+{list-style-type:none;
+padding:0px 3px 0px 0px;
+margin:0px 0px 0px 0px;
+display:inline;
+}
+.bottomLinks li a
+{color:#000000;
+font-weight:bold;
+text-decoration:none;
+padding:0px 5px 0px 0px;
+}
+
+
+
+
+/* inner pages css start */
+h1.inner{font:20px tahoma, Arial; color:#000; text-align:left; font-weight:100; margin:0px; padding:15px 0px 5px 10px; text-decoration:none}
+h1.inner span{font:24px tahoma, Arial; color:#fff; font-weight:100; margin:0px; padding:25px 0px 10px 0px; background:none}
+.aboutus-img{float:right; border:4px solid #dcdcda;	margin:0px 0px 10px 20px;}
+h5{font:15px Myriad Pro, Arial, Helvetica, sans-serif; color:#555555; font-weight:100; padding:0px 0px 5px 0px;	border-bottom:1px dotted #000;	margin:0px 0px 10px 0px; background:none }
+h6{font:17px Myriad Pro, Arial, Helvetica, sans-serif; color:#555555; font-weight:100; padding:0px 0px 5px 0px;	margin:0px 0px 0px 0px; background:none }
+.aboutcolumnzone{padding:20px 0px 16px 0px;}
+.aboutcolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.aboutcolumn2{width:48%; float:right; margin:0px 0px 10px 0px;}
+.abouticon{float:left; margin:0px 20px 0px 0px;}
+.insidereadmore{padding:10px 0px 10px 0px;}
+.insidereadmore a{color:#5D2D23; font-size:14px; text-decoration:none}
+.insidereadmore a:hover{text-decoration:underline}
+
+a.projects{color:#5D2D23; font-size:14px; text-decoration:underline}
+a:hover.projects{text-decoration:none}
+
+input.button{color:#ffffff;	background:#414141;	font:bold 11px Arial, Helvetica, sans-serif; text-decoration:none; padding:10px 10px; margin:0px 5px 5px 0;	border:1px solid #000;}
+input.button:hover{cursor:pointer; color:#cccccc;}
+.project-img{float:right; margin-left:20px;	border: 6px solid #dcdcda;}
+.whiteheading{font:30px Myriad Pro, Arial; color:#000; font-weight:100;	padding:0px; margin:25px 0px 20px 0px;}
+.ourprojectrow{margin-bottom:20px; border-bottom:1px dotted #000; padding-bottom:10px;}
+.servicecolumnzone{padding:20px 0px 16px 0px;}
+.servicecolumn1{width:48%; float:left; margin:0px 0px 10px 0px;}
+.servicecolumn2{width:48%; float:right;	margin:0px 0px 10px 0px;}
+.blog-posted-row{padding:3px;}
+
+.blog-posted-row a{color:#5D2D23; font-size:14px; text-decoration:underline; padding:0 0 0 8px}
+.blog-posted-row a:hover{text-decoration:none}
+/* inner pages css ends */
